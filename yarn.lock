@@ -465,9 +465,9 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-less-middleware@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/less-middleware/-/less-middleware-3.0.0.tgz#1a69d6e7c84e5a939db68a4a2c0c94022542c3d2"
+less-middleware@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/less-middleware/-/less-middleware-3.0.1.tgz#0cceb526567543f67b150c7fa5798b629169ca8e"
   dependencies:
     less "~3.0.4"
     mkdirp "~0.5.1"
