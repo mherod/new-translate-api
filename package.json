@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
-    "debug": "~3.1.0",
+    "debug": "~4.1.0",
     "ejs": "~2.6.1",
     "express": "~4.16.0",
     "google-translate-api": "^2.3.0",
