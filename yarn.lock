@@ -362,9 +362,9 @@ har-validator@~5.0.3:
     ajv "^5.1.0"
     har-schema "^2.0.0"
 
-hoek@^5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/hoek/-/hoek-5.0.3.tgz#b71d40d943d0a95da01956b547f83c4a5b4a34ac"
+hoek@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-6.0.0.tgz#747680290249203ad096ff33d1699adf5e8e73bd"
 
 http-errors@1.6.2:
   version "1.6.2"
