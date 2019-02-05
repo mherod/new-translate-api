@@ -305,6 +305,10 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
+function-bind@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -361,6 +365,12 @@ har-validator@~5.0.3:
   dependencies:
     ajv "^5.1.0"
     har-schema "^2.0.0"
+
+has@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
+  dependencies:
+    function-bind "^1.1.1"
 
 hoek@^5.0.3:
   version "5.0.3"
@@ -549,9 +559,10 @@ negotiator@0.6.1:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
 node.extend@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/node.extend/-/node.extend-2.0.0.tgz#7525a2875677ea534784a5e10ac78956139614df"
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/node.extend/-/node.extend-2.0.2.tgz#b4404525494acc99740f3703c496b7d5182cc6cc"
   dependencies:
+    has "^1.0.3"
     is "^3.2.1"
 
 oauth-sign@~0.8.2:
